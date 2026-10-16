@@ -1,0 +1,15 @@
+def check_cabin_class():
+    cabin= input("Enter your cabin class:")
+    if cabin == 'LUX':
+        print("upper-deck cabin with a balcony")
+    elif cabin == 'A':
+        print("above the car deck, equipped with a window")
+    elif cabin == 'B':
+        print("windowless cabin above the car deck")
+    elif cabin == 'C':
+        print("windowless cabin below the car deck")
+    else:
+        print("invalid cabin class")
+check_cabin_class()
+
+
